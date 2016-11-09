@@ -1,1 +1,138 @@
-/* Ingresa tu css aqui */
+/*----------------------inicio primera pagina*/
+.contenedor{width: 700px;
+margin: 0 auto}
+
+img.logo{margin: 20px;
+margin-top: 60px;
+width: 100%}
+/*----------------------menu principal*/
+.lista-menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-width: 1px 0;
+	text-align: center;
+}
+hr.encabezado{width: 70%}
+
+ul.lista-menu li:after{content: "]"}
+
+ul.lista-menu li:last-child:after{content: ""}
+
+.encabezado li{
+	position: relative;
+	list-style: none;
+	display: inline-block;
+	margin-right: 30px;
+	font-size: 25px;
+	
+	margin: 0}
+
+
+/*----------------------contexto*/
+img.grupal{width: 100%}
+
+
+hr.contexto{width:70px;
+	margin: 30px auto}
+
+div.contexto .parrafo{
+	text-align: center;
+	margin: auto 150px;
+	font-size: 22px
+}
+
+/*----------------------lista de coders*/
+div.contexto ul a{
+	display: inline-block;
+
+}
+hr.coders{width: 150px;
+margin-left: 0}
+
+.coders li{
+	display: inline-block;
+}
+div.contexto .coders p{position: absolute;}
+
+.coders li{position: relative;
+}
+.coders li p{
+	position:absolute;
+	margin-bottom: 0px;
+	padding: 0;
+	bottom: 0;
+	right: 0;
+	margin: 10px;
+	color: white
+}
+
+div.contexto ul.lista-coders{margin-bottom: 70px}
+
+/*-----------------fin primera pagina*/
+/*----------------- inicio primera coder*/
+
+.contenedor2{width: 700px;
+	margin: 0 auto;
+	border:1px solid black;}
+
+div.contenedor2 img.coder{
+	position: relative;
+	left: 37%;
+	text-align: center;
+	border-radius: 50%;
+	width:150px;
+	margin-top:40px 
+}
+.contenedor2 h1{
+	text-align: center;}
+
+.contenedor2 p{margin: 0 50px;
+	text-align: center;}
+
+/*-----------------subtitulos*/
+.contenedor2 h2{
+	margin-left: 20px
+}
+
+.contenedor2 .lista1,.lista2,.lista3{
+	margin: 0 auto 20px 50px;
+	color:white;
+	background-color: #A4A4A4;
+	border:1px solid black;
+	padding: 10px;
+}
+.contenedor2 .lista1{width: 400px}
+.contenedor2 .lista2{width: 200px}
+.contenedor2 .lista3{width: 100px}
+
+ul.contenedor2-img li{
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+	margin:15px;
+}
+
+div.contenedor2 .a,.b,.c{
+	position: relative;
+	width: 175px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	margin: 0
+
+}
+
+/*----------------- fin primera coder*/
+	
+
+
+
+
+
+
+
+
+
+
+
+
